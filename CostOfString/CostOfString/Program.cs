@@ -25,7 +25,7 @@ namespace CostOfString
 
             foreach (var c in s)
             {
-                if (c == 'a' || c == 'e' || c == 'u' || c == 'o' || c == 'u')
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
                 {
                     total += 2;
                 }
