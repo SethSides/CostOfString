@@ -15,7 +15,7 @@ namespace CostOfString
             var inputWord = Console.ReadLine();
 
             var cost = CostOfString(inputWord);
-            Console.WriteLine($"Cost of {inputWord} is : {cost}");
+            Console.WriteLine($"Cost of \"{inputWord}\" is : {cost}");
             Console.ReadKey();
         }
 
